@@ -12,6 +12,7 @@ permissions:
 
 jobs:
   publish:
+    if: github.repository == 'tscircuit/format-si-unit'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
